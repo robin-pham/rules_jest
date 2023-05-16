@@ -2,6 +2,9 @@
   "private": true,
   "devDependencies": {
     "jest-cli": "29.5.0",
-    "jest-junit": "15.0.0"
+    "jest-junit": "15.0.0",
+    "babel-jest": "29.5.0",
+    "@babel/preset-env": "7.21.5",
+    "@babel/preset-typescript": "7.21.5"
   }
 }
