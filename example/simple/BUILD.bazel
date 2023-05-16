@@ -22,12 +22,11 @@ bin.jest_binary(
     ],
     copy_data_to_bin = False,
     data = [
-        "babel.config.js",
         "index.test.ts",
         "index.ts",
         "jest.config.js",
-        "//:node_modules/@babel/preset-typescript",
-        "//:node_modules/babel-jest",
+        "//:node_modules/@swc/core",
+        "//:node_modules/@swc/jest",
     ],
     tags = ["manual"],
 )

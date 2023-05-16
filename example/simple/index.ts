@@ -1,2 +1,2 @@
-const testvar = "test1234";
+const testvar = "test123";
 export default testvar;
